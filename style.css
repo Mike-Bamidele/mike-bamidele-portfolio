@@ -203,6 +203,12 @@ LOGO
 
 .studio-logo{
 
+display:inline-block;
+
+text-decoration:none;
+
+color:inherit;
+
 cursor:pointer;
 
 transition:.4s;
@@ -218,6 +224,24 @@ font-weight:800;
 letter-spacing:1px;
 
 transition:.4s;
+
+}
+
+.studio-logo:hover{
+
+text-decoration:none;
+
+}
+
+.studio-logo:visited{
+
+color:inherit;
+
+}
+
+.studio-logo:active{
+
+color:inherit;
 
 }
 
